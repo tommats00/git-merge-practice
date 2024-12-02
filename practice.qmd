@@ -21,6 +21,7 @@ And do something with it:
 
 ```{python}
 star_wars_df.height
+
 ```
 
 This is a new commment, a green line appears to indicate this is an addition for git tracking.
