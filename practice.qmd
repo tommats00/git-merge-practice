@@ -12,7 +12,7 @@ star_wars_df = pd.DataFrame({
     "name": ["Luke Skywalker", "Darth Vader", "Leia Organa", "Han Solo", "Yoda", "Chewbacca"],
     "height": [172, 202, 150, 180, 66, 228],
     "mass": [77, 136, 49, 80, 17, 112],
-    "species": ["Human", "Human", "Human", "Human", "Yoda's species", "Wookiee"]
+    "species": ["Wookie", "Wookie", "Wookie", "Wookie", "Yoda's species", "Wookiee"]
 })
 star_wars_df
 ```
