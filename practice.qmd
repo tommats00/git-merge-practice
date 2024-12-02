@@ -3,6 +3,8 @@ Start by importing the required packages:
 ```{python}
 import pandas as pd
 import numpy as np
+import geopandas as gpd
+import os
 ```
 
 Let's create a sample dataset to work with:
@@ -10,9 +12,9 @@ Let's create a sample dataset to work with:
 ```{python}
 # Create Star Wars DataFrame
 star_wars_df = pd.DataFrame({
-    "name": ["Luke Skywalker", "Darth Vader-Skywalker", "Leia Organa", "Han Solo", "Yoda", "Chewbacca", "Jar Jar"],
-    "height": [0, 202, 15, 180, 66, 228, 402],
-    "mass": [77, 136, 49, 80, 17, 112, 204],
+    "name": ["Duke Skywalker", "Varth Dader", "Leia Organa", "Han Solo", "YodEEEE", "Chewbacca"],
+    "height": [172, 232302, 150, 180, 66, 228],
+    "mass": [77, 13236, 49, 80, 17, 11212],
 
     "species": ["Wookie", "Wookie", "Wookie", "Wookie", "Yoda's species", "Wookiee"]
 
@@ -24,7 +26,10 @@ And do something with it:
 
 ```{python}
 star_wars_df.height.Luke
+star_wars_df.height
+star_wars_df.columns
 
+star_wars_df.info()
 ```
 
 This is a new commment, a green line appears to indicate this is an addition for git tracking.
