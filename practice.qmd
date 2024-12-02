@@ -2,6 +2,7 @@ Start by importing the required packages:
 
 ```{python}
 import pandas as pd
+import numpy as np
 ```
 
 Let's create a sample dataset to work with:
@@ -9,9 +10,9 @@ Let's create a sample dataset to work with:
 ```{python}
 # Create Star Wars DataFrame
 star_wars_df = pd.DataFrame({
-    "name": ["Luke Skywalker", "Darth Vader", "Leia Organa", "Han Solo", "Yoda", "Chewbacca"],
-    "height": [172, 202, 150, 180, 66, 228],
-    "mass": [77, 136, 49, 80, 17, 112],
+    "name": ["Luke Skywalker", "Darth Vader-Skywalker", "Leia Organa", "Han Solo", "Yoda", "Chewbacca", "Jar Jar"],
+    "height": [0, 202, 15, 180, 66, 228, 402],
+    "mass": [77, 136, 49, 80, 17, 112, 204],
 
     "species": ["Wookie", "Wookie", "Wookie", "Wookie", "Yoda's species", "Wookiee"]
 
@@ -22,7 +23,7 @@ star_wars_df
 And do something with it:
 
 ```{python}
-star_wars_df.height
+star_wars_df.height.Luke
 
 ```
 
