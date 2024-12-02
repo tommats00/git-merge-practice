@@ -2,6 +2,7 @@ Start by importing the required packages:
 
 ```{python}
 import pandas as pd
+import numpy as np
 import geopandas as gpd
 import os
 ```
@@ -24,6 +25,7 @@ star_wars_df
 And do something with it:
 
 ```{python}
+star_wars_df.height.Luke
 star_wars_df.height
 star_wars_df.columns
 
